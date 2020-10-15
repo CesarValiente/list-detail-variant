@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
-        //Wjhen we are in spanned mode we show list-detail views
+        //When we are in spanned mode we show list-detail views
         if (ScreenHelper.isDualMode(this)) {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.first_container_id, ListItemsFragment())
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction()
                 .replace(R.id.first_container_id, ListItemsFragment())
                 .commit()
-            supportFragmentManager.popBackStack()
+            supportFragmentManager.popBackStackImmediate()
         } else {
             //when we are back from spanned mode, we want to show the previous detail view
             supportFragmentManager.beginTransaction()
