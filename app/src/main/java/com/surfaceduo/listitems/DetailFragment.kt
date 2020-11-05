@@ -1,4 +1,10 @@
-package com.surfaceduo.training.listitems
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ *
+ */
+
+package com.surfaceduo.listitems
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,7 +16,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import com.microsoft.device.dualscreen.core.ScreenHelper
-import com.surfaceduo.training.listitems.recyclerview.Item
+import com.surfaceduo.listitems.recyclerview.Item
 
 class DetailFragment : Fragment() {
 

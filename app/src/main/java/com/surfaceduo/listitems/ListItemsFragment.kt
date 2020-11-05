@@ -1,4 +1,10 @@
-package com.surfaceduo.training.listitems
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ *
+ */
+
+package com.surfaceduo.listitems
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,14 +16,14 @@ import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.microsoft.device.dualscreen.core.ScreenHelper
-import com.surfaceduo.training.listitems.recyclerview.Item
-import com.surfaceduo.training.listitems.recyclerview.ItemsAdapter
+import com.surfaceduo.listitems.recyclerview.Item
+import com.surfaceduo.listitems.recyclerview.ItemsAdapter
 
 class ListItemsFragment : Fragment() {
 
-    lateinit var recyclerView: RecyclerView
-    lateinit var myLayoutManager: RecyclerView.LayoutManager
-    lateinit var myAdapter: ItemsAdapter
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var myLayoutManager: RecyclerView.LayoutManager
+    private lateinit var myAdapter: ItemsAdapter
 
     private val sharedVM: SharedVM by activityViewModels()
 

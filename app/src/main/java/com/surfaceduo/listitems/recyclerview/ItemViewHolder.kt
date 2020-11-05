@@ -1,10 +1,10 @@
-package com.surfaceduo.training.listitems.recyclerview
+package com.surfaceduo.listitems.recyclerview
 
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.surfaceduo.training.listitems.R
+import com.surfaceduo.listitems.R
 
 class ItemViewHolder(val view: View, val onClick: () -> Unit) :
     RecyclerView.ViewHolder(view) {

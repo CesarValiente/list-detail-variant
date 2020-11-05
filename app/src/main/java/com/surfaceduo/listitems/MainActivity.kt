@@ -1,4 +1,10 @@
-package com.surfaceduo.training.listitems
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ *
+ */
+
+package com.surfaceduo.listitems
 
 import android.os.Bundle
 import android.view.MenuItem

@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) Microsoft Corporation. All rights reserved.
+  ~ Licensed under the MIT License.
+  ~
+  -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.surfaceduo.training.listitems">
+    package="com.surfaceduo.listitems">
 
     <application
         android:allowBackup="true"
@@ -9,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"> <!-- we have to use a theme without action bar -->
-        <activity android:name="com.surfaceduo.training.listitems.MainActivity">
+        <activity android:name="com.surfaceduo.listitems.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

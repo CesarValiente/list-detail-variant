@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ *
+ */
+
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
@@ -7,7 +13,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.surfaceduo.training.itemslist"
+        applicationId "com.surfaceduo.listitems"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
