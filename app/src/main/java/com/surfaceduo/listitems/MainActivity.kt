@@ -4,7 +4,7 @@
  *
  */
 
-package com.surfaceduo.training.listitems
+package com.surfaceduo.listitems
 
 import android.os.Bundle
 import android.view.MenuItem

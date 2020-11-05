@@ -1,12 +1,12 @@
-package com.surfaceduo.training.listitems.recyclerview
+package com.surfaceduo.listitems.recyclerview
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.microsoft.device.dualscreen.core.ScreenHelper
-import com.surfaceduo.training.listitems.R
-import com.surfaceduo.training.listitems.SharedVM
+import com.surfaceduo.listitems.R
+import com.surfaceduo.listitems.SharedVM
 
 class ItemsAdapter(
     private val items: Array<Item>,
